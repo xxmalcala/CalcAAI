@@ -1,8 +1,14 @@
-# CalcAAI
-Calculates the average amino acid identity among multiple taxa given their protein-coding genes. Application is currently directed towards (micro)eukaryotes and discerning phylogenomic relationships.
+# Calc Amino Acid Identity
+Calculates the average amino acid identity among multiple taxa given their protein-coding genes. Application is currently directed towards (micro)eukaryotes towards discerning deep phylogenomic relationships.
 
-## Requirements
+## Dependencies
+[Python 3.6+](https://www.python.org/downloads/)\
+[DIAMOND](https://github.com/bbuchfink/diamond)\
 
-DIAMOND [GitHub Repo](https://github.com/bbuchfink/diamond)\
-Python >= 3.6
+## Planned Updates
+- [ ] Update with phylogeny "awareness"
+- [ ] Ortholog assessment incoporating [OrthoFinder2](https://github.com/davidemms/OrthoFinder)
+- [ ] Support for network analyses
 
+### When using these tools in published research, please cite:
+- Maurer-Alcalá XX, Gyaltshen Y, Heiss AA, Kim E. *In prep*. \"Sunset for Excavata: Analyses of Genome Architecture and Lineage-Specific Genes Break Apart the Contentious Supergroup"\.
