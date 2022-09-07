@@ -1,9 +1,9 @@
-# Calc Amino Acid Identity
+# Calculate Amino Acid Identity
 Calculates the average amino acid identity among multiple taxa given their protein-coding genes. Application is currently directed towards (micro)eukaryotes towards discerning deep phylogenomic relationships.
 
 ## Dependencies
 [Python 3.6+](https://www.python.org/downloads/)\
-[DIAMOND](https://github.com/bbuchfink/diamond)\
+[DIAMOND](https://github.com/bbuchfink/diamond)
 
 ## Planned Updates
 - [ ] Update with phylogeny "awareness"
