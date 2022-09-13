@@ -1,13 +1,13 @@
 # Calculate Amino Acid Identity
-Calculates the average amino acid identity among multiple taxa given their protein-coding genes. Application is currently directed towards (micro)eukaryotes towards discerning deep phylogenomic relationships.
+Calculates the average amino acid identity among multiple taxa given their protein-coding genes. Application is currently directed towards (micro)eukaryotes and discerning deep phylogenomic relationships.
 
 ## Dependencies
 [Python 3.6+](https://www.python.org/downloads/)\
 [DIAMOND](https://github.com/bbuchfink/diamond)
 
-## Planned Updates
+## Planned Updates (V2)
 - [ ] Update with phylogeny "awareness"
-- [ ] Ortholog assessment incoporating [OrthoFinder2](https://github.com/davidemms/OrthoFinder)
+- [ ] Incorporate Ortholog assessment [OrthoFinder2](https://github.com/davidemms/OrthoFinder)
 - [ ] Support for network analyses
 
 ### When using these tools in published research, please cite:
