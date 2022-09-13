@@ -5,6 +5,14 @@ Calculates the average amino acid identity among multiple taxa given their prote
 [Python 3.6+](https://www.python.org/downloads/)\
 [DIAMOND](https://github.com/bbuchfink/diamond)
 
+## Usage
+Requires a folder with translated protein sequences (one *per* taxon):
+```
+$ python3 aai_calc.py [FOLDER-WITH-AA-FASTAs]
+```
+Output includes a table summarizing the AAIs among all the taxa compared, as well as a substantially larger table with all pairwise comparisons used in the analyses. Note that this does solely incorporate Reciprocal Best Blast Hits (RBBHs).
+
+
 ## Planned Updates (V2)
 - [ ] Update with phylogeny "awareness"
 - [ ] Incorporate Ortholog assessment [OrthoFinder2](https://github.com/davidemms/OrthoFinder)
